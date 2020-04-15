@@ -1,10 +1,8 @@
-
-
-.headShot{
-  /* border: 2px solid black; */
-  height: auto;
-  width: 18vw;
+.firstName{
+  text-transform: uppercase;
+  font-size: 3rem;
 }
+
 
 .imageWrapper{
   display: flex;
@@ -14,19 +12,44 @@
 
 .kpsTitle{
   font-family: "UnitedSansCdHv", franklin-gothic-urw !important;
-  text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
 .kpsWrapper{
-  width: 100vw;
   overflow-x: hidden;
 }
 
+.lastName{
+  font-size: 2rem;
+  line-height: 0.4;
+}
+
 .playerCard{
+  margin-left: 0px;
   border: 1px solid #dfdfdf;
   border-radius: 5px;
   width: 40vw;
-  
+  padding-top: 2vh;
+}
+
+.playerInfo{
+  font-family: "UnitedSansCdBd", franklin-gothic-urw !important;
+  line-height: 1;
+}
+
+.playerNumber{
+  font-size: 6rem;
+  font-family: "UnitedSansCdBd", franklin-gothic-urw !important;
+}
+
+.playerPic{
+  height: auto;
+  width: 100%;
+}
+
+.playerStats{
+  margin-top: 5vh;
+  line-height: .3;
+  font-size: .8rem;
 }
