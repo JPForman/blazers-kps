@@ -1,0 +1,32 @@
+
+
+.headShot{
+  /* border: 2px solid black; */
+  height: auto;
+  width: 18vw;
+}
+
+.imageWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kpsTitle{
+  font-family: "UnitedSansCdHv", franklin-gothic-urw !important;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.kpsWrapper{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.playerCard{
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  width: 40vw;
+  
+}
