@@ -1,8 +1,11 @@
+.cardRow{
+  display: flex;
+}
+
 .firstName{
   text-transform: uppercase;
   font-size: 3rem;
 }
-
 
 .imageWrapper{
   display: flex;
@@ -18,6 +21,7 @@
 
 .kpsWrapper{
   overflow-x: hidden;
+  padding: 30px;
 }
 
 .lastName{
@@ -26,11 +30,16 @@
 }
 
 .playerCard{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   margin-left: 0px;
   border: 1px solid #dfdfdf;
   border-radius: 5px;
   width: 40vw;
   padding-top: 2vh;
+  padding-left: 3vh;
+  margin-right: 20px;
 }
 
 .playerInfo{
