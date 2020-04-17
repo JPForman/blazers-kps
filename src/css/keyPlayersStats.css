@@ -40,6 +40,7 @@
 .miniPlayerCard{
   border: 1px solid #dfdfdf;
   border-radius: 5px;
+  background-image: linear-gradient(#ffffff,#eeeeee);
 }
 
 .miniPicWrapper{
@@ -48,6 +49,11 @@
 
 .miniPlayerPic{
   margin-top: 25px;
+}
+
+.miniPlayerStats{
+  line-height: 0.5;
+  padding: .7em;
 }
 
 .miniRow{
@@ -67,6 +73,7 @@
   width: 100%;
   padding: 3vh;
   /* margin-right: 20px; */
+  background-image: linear-gradient(#ffffff,#eeeeee);
 }
 
 .playerInfo{
