@@ -147,6 +147,7 @@
   }
 
   .playerStats{
+    line-height: 1.1;
     font-size: .8rem;
   }
 
@@ -155,6 +156,24 @@
   }
 
   .playerPic{
+    height: auto;
+    width: 100%;
+  }
+
+  .miniNames{
+    display: none;
+  }
+
+  .miniNumber{
+    /* display: none; */
+  }
+
+  .miniPlayerCard{
+    grid-template-columns: 0fr 1fr;
+
+  }
+
+  .miniPlayerPic{
     height: auto;
     width: 100%;
   }

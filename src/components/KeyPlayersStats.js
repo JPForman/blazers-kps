@@ -10,7 +10,7 @@ function KeyPlayersStats(){
   const playerTwo = roster[4];
   const bigPlayers = [playerOne, playerTwo];
   const playerThree = roster[1];
-  const playerFour = roster[3];
+  const playerFour = roster[9];
   const playerFive = roster[6];
   const miniPlayers = [playerThree, playerFour, playerFive];
 
