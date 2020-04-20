@@ -126,6 +126,39 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 425px) {
   .kpsTitle {background: red;}
+
+  .kpsComponent{
+    width: 90vw;
+    /* margin-right: 25px; */
+    margin-bottom: 20px;
+  }
+
+  .kpsWrapper{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .firstName{
+    font-size: 1.8rem;
+  }
+
+  .lastName{
+    font-Size: 1.4rem;
+  }
+
+  .playerStats{
+    font-size: .8rem;
+  }
+
+  .playerNumber{
+    font-size: 3rem;
+  }
+
+  .playerPic{
+    height: auto;
+    width: 100%;
+  }
+  
 }
 
 

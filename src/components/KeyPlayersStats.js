@@ -39,7 +39,7 @@ function KeyPlayersStats(){
                   <p>Points Per Game:  {playerOne.pointsPerGame}</p>
                   <p>Rebounds Per Game: {playerOne.reboundsPerGame}</p>
                   <p>Assits Per Game: {playerOne.assistsPerGame}</p>
-                  <p>Field Goal Percentage: {playerOne.fieldGoalPercent}</p>
+                  <p>Field Goal %: {playerOne.fieldGoalPercent}</p>
                 </div>
               </div>
               <div className='imageWrapper '>
