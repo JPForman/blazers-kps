@@ -71,7 +71,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  /* margin-right: 25px; */
 }
 
 .playerCard{
@@ -83,7 +82,6 @@
   border-radius: 5px;
   width: 100%;
   padding: 3vh;
-  /* margin-right: 20px; */
   background-image: linear-gradient(#ffffff,#eeeeee);
 }
 
@@ -123,7 +121,7 @@
 
 
 
-/* Extra small devices (phones, 600px and down) */
+/* Phones */
 @media only screen and (max-width: 425px) {
   .kpsTitle {background: red;}
 
@@ -182,8 +180,66 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 426px) {
   .kpsTitle {background: blue;}
+
+  .firstName{
+    font-size: 1.8rem;
+  }
+
+  .playerNumber{
+    font-size: 3rem;
+  }
+  
+  .kpsComponent{
+    width: 45vw;
+    /* margin-right: 25px; */
+    margin-bottom: 20px;
+  }
+
+  .kpsWrapper{
+    padding-left: 20px;
+    padding-right: 0px;
+    
+  }
+
+  .lastName{
+    font-size: 1.4rem;
+  }
+
+  .miniLast{
+    margin-bottom: 0px;
+  }
+
+
+  .miniNames{
+    font-size: .8rem;
+    margin: 0rem;
+    line-height: 0;
+    padding-left: 2px;
+  }
+
+
+  .miniNumber{
+   margin-top: 10px;
+  }
+
+  .miniPlayerPic{
+    height: auto;
+    width: 100%;
+  }
+
+  .miniPlayerStats{
+    padding: 0px;
+  }
+
+  .playerStats{
+    line-height: 1.1;
+    font-size: .9rem;
+  }
+
+  
+
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */

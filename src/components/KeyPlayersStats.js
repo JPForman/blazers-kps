@@ -54,7 +54,7 @@ function KeyPlayersStats(){
                     <p className='miniNumber'>{miniPlayer.number}</p>
                     <div className='miniNames'>
                       <p>{miniPlayer.firstName}</p>
-                      <p>{miniPlayer.lastName}</p>
+                      <p className='miniLast'>{miniPlayer.lastName}</p>
                     </div>
                   </div>
                   <div className='miniPicWrapper'>
