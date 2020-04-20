@@ -52,8 +52,10 @@ function KeyPlayersStats(){
                 <div className='miniPlayerCard'>
                   <div className='miniPlayerStats'>
                     <p className='miniNumber'>{miniPlayer.number}</p>
-                    <p>{miniPlayer.firstName}</p>
-                    <p>{miniPlayer.lastName}</p>
+                    <div className='miniNames'>
+                      <p>{miniPlayer.firstName}</p>
+                      <p>{miniPlayer.lastName}</p>
+                    </div>
                   </div>
                   <div className='miniPicWrapper'>
                     <img className='miniPlayerPic' src={`http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/1040x760/${miniPlayer.id}.png`} />

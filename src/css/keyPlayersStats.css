@@ -37,10 +37,15 @@
   line-height: 0.4;
 }
 
+.miniNames{
+
+}
+
 .miniNumber{
   font-family: "UnitedSansCdBd", franklin-gothic-urw !important;
   font-weight: bold;
-  font-size: 1.5rem;;
+  font-size: 1.3rem;
+  /* margin-bottom: 2rem; */
 }
 
 .miniPlayerCard{
@@ -115,3 +120,21 @@
   font-weight: 400;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 425px) {
+  .kpsTitle {background: red;}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 425px) {
+  .kpsTitle {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+  .kpsTitle {background: orange;}
+} 
