@@ -51,7 +51,7 @@ function KeyPlayersStats(){
               {miniPlayers.map((miniPlayer, index) => (
                 <div className='miniPlayerCard'>
                   <div className='miniPlayerStats'>
-                    <p>{miniPlayer.number}</p>
+                    <p className='miniNumber'>{miniPlayer.number}</p>
                     <p>{miniPlayer.firstName}</p>
                     <p>{miniPlayer.lastName}</p>
                   </div>
