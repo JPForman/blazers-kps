@@ -6,8 +6,8 @@ import testJsonObject from '../test_json_object.js';
 function KeyPlayersStats(){
 
   const roster = testJsonObject;
-  const playerOne = roster[2];
-  const playerTwo = roster[4];
+  const playerOne = roster[4];
+  const playerTwo = roster[0];
   const bigPlayers = [playerOne, playerTwo];
   const playerThree = roster[1];
   const playerFour = roster[9];
@@ -36,10 +36,11 @@ function KeyPlayersStats(){
                 <p className='firstName'>{playerOne.firstName}</p>
                 <p className='lastName'>{playerOne.lastName}</p>
                 <div className='playerStats'>
+                  <p className='statsTitle'>Key Stats</p>
                   <p>Points Per Game:  {playerOne.pointsPerGame}</p>
                   <p>Rebounds Per Game: {playerOne.reboundsPerGame}</p>
                   <p>Assits Per Game: {playerOne.assistsPerGame}</p>
-                  <p>Field Goal %: {playerOne.fieldGoalPercent}</p>
+                  <p>Field Goal: {playerOne.fieldGoalPercent}</p>
                 </div>
               </div>
               <div className='imageWrapper '>
